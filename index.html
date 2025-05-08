@@ -4,7 +4,80 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>La célula</title>
-  <link rel="stylesheet" href="styles.css" />
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background-color: #90EE90;
+    }
+    .header {
+      background-color: #006400;
+      color: white;
+      padding: 50px;
+      font-size: 40px; /* Tamaño aumentado */
+      font-weight: bold;
+      font-family: 'Georgia', serif; /* Fuente modificada */
+    }
+    .nav-buttons {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+      margin-top: 30px;
+    }
+    .nav-buttons a {
+      text-decoration: none;
+      color: white;
+      background-color: #66bb6a;
+      padding: 12px 24px;
+      border-radius: 8px;
+      font-size: 18px;
+      transition: transform 0.3s ease;
+    }
+    .nav-buttons a:hover {
+      transform: scale(1.2);
+    }
+    /* Estilos para los containers de subtemas */
+    .subtema-container {
+      border: none;
+      margin: 30px auto;
+      padding: 30px;
+      width: 85%;
+      background-color: white;
+      border-radius: 15px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+      color: #333;
+      text-align: left;
+      transition: transform 0.3s ease; /* Agregamos la transición para el efecto */
+    }
+
+    .subtema-container:hover {
+      transform: scale(1.05); /* Agranda el container al pasar el cursor */
+    }
+
+    .subtema-container h2 {
+      color: #006400;
+      margin-bottom: 15px;
+      font-size: 28px;
+      border-bottom: 2px solid #3CB371;
+      padding-bottom: 10px;
+    }
+
+    .subtema-container p {
+      font-size: 18px;
+      line-height: 1.6;
+      margin-bottom: 20px;
+    }
+
+    .subtema-container img {
+      width: 100%;
+      max-width: 500px;
+      display: block;
+      margin: 0 auto 20px auto;
+      border-radius: 10px;
+    }
+  </style>
 
 </head>
 <body>
